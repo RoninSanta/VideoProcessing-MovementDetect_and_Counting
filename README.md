@@ -10,6 +10,8 @@ This library is the `KEY` for object detection and analysis, it is an important 
 
 ### [Highlight Objects]
 After applying the final function, I use the cv2 library to detect contours and draw bounding rectangles around objects that meet a certain area threshold (>2500). This helps to avoid tagging bicycles and pedestrians.
+
+
 [Before] ![before](https://github.com/RoninSanta/VideoProcessing-MovementDetect_and_Counting/assets/109457795/c450e39b-826d-4f62-9147-3f1e0d168bd1)
 
 [After] ![after](https://github.com/RoninSanta/VideoProcessing-MovementDetect_and_Counting/assets/109457795/e183f962-0245-443d-8448-5a1cac132f13)
